@@ -17,8 +17,8 @@ RUN python -m pip install --upgrade pip setuptools \
     && pip config set global.break-system-packages true
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir -e .
+
+RUN pip install  -e .
 
 RUN python pipeline/training_pipeline.py
 
