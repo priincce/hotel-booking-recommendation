@@ -1,0 +1,8 @@
+numpy==1.26.0
+pandas
+google-cloud-storage
+scikit-learn
+pyyaml
+imbalanced-learn
+lightgbm
+mlflow
