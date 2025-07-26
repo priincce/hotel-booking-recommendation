@@ -57,13 +57,14 @@ pipeline{
                                           echo "Deploying to Google Cloud Run........................."
                                           export PATH=$PATH:${GCLOUD_PATH}
                                           gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
+
                                           gcloud config set project ${GCP_PROJECT}
 
                                           gcloud run deploy hotel-booking-recommendation \
-                                             --image=gcr.io/${GCP_PROJECT}/hotel-booking-recommendation:latest \
-                                             --platform=managed \
-                                             --region=us-central1 \
-                                             --allow-unauthenticated
+                                                --image=gcr.io/${GCP_PROJECT}/hotel-booking-recommendation:latest \
+                                                --platform=managed \
+                                                --region=us-central1 \
+                                                --allow-unauthenticated
                                     '''
                               }
                         }
