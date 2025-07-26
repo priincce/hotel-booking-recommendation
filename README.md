@@ -1,12 +1,12 @@
 # 🏨 Hotel Booking Cancellation Prediction
 
-This Machine Learning project predicts whether a hotel booking will be **canceled** or **not**, based on various features of the reservation. The project uses **Random Forest** and **LightGBM**, and employs a modular pipeline with **Google Cloud Storage (GCP Bucket)** for data handling.
+This Machine Learning project predicts whether a hotel booking will be **canceled** or **not**, based on various features of the reservation. The project uses **Random Forest** , **MLflow**, **jenkins CI-CD Pipeline** and **LightGBM**, and employs a modular pipeline with **Google Cloud Platform ** for data handling.
 
 ---
 
 ## 🚀 Live Deployments
 
-This project is **not deployed yet**, but you can explore the working source code and pipeline in this repository.
+**https://hotel-booking-recommendation-942418527703.us-central1.run.app/**
 
 ---
 
